@@ -1,0 +1,45 @@
+.background{
+    background: url(images/rps.jpg);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    /* animation:wallpaper 3s linear; */
+}
+/* @keyframes wallpaper {
+    0%{
+opacity:1;
+    }
+    25%{
+        opacity:1;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0
+    }
+} */
+   /* animation:display 1s linear;
+    animation-delay: 3s;
+    animation-fill-mode:forwards; */
+
+/* @keyframes display {
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity:1;
+    }
+} */
+.button{
+    position: absolute;
+    top:350px;
+    left:620px;
+    background-color: rgb(3, 22, 22);
+    color: antiquewhite;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border:none;
+outline: none;
+
+}

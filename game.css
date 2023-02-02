@@ -1,0 +1,88 @@
+.row{
+    background:linear-gradient(to right,rgb(80, 178, 126),rgb(140, 182, 82),rgb(189, 93, 189));
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    position: relative;
+}
+.heading{
+position: absolute;
+top: 50px;
+color: aliceblue;
+left:550px;
+font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(54, 5, 49);
+}
+.images{
+    position: absolute;
+  right:0px;
+    bottom:0px;
+    mix-blend-mode: multiply;
+    width:25%;
+animation: flip 3s infinite linear;
+}
+@keyframes flip {
+    0%{
+    transform:scale(0);
+    }
+    100%{
+        transform:scale3D(180);
+ 
+    }
+}
+.user-computer{
+    position: absolute;
+    top:150px;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+#userchoice,#computerchoice,#result{
+text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height:200px;
+    /* background-color: brown; */
+    flex:1;
+    height: 250px;
+    color: rgb(81, 72, 4);
+    font-size:30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cartoon-image{
+    /* width:30%; */
+    height:180px;
+    mix-blend-mode: multiply;
+   flex:1;
+   margin-right: 100px;
+   margin-left: 50px;
+
+}
+.cartoon-image-div{
+    position: absolute;
+    top: 450px;
+    display: flex;
+    flex-direction: row;
+ margin-top: 0;
+ margin-bottom: 50px;
+}
+.button1{
+    width:auto;
+    height:auto;
+}
+
+.image-style{
+    border-radius: 50%;
+    width:70%; 
+    height:75%;
+    margin-top: 10px;
+}
+.finalresult{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(23, 43, 2);
+    margin-top: 50px;
+}
